@@ -102,7 +102,40 @@ By the end of this module, you will:
      - In **README**, detail how to run integration tests + do manual checks via OpenAPI.  
      - Link to your Docker Hub repository.  
    - This module completes your back-end logic; you’ll add a front-end in Module 13.
+# **Grading Expectations**
 
+Your submissions for the **Hands-On Assignment** will be evaluated based on the following two criteria:
+
+### **1. Submission Completeness (50 Points)**
+
+- **GitHub Repository Link:**
+  - Provided and accessible.
+  - Contains all necessary files (`User` and `Calculation` routes, tests, GitHub Actions workflow).
+
+- **Screenshots:**
+  - **GitHub Actions Workflow:** Screenshot showing a successful run of the GitHub Actions workflow.
+  - **Application Running in Browser:** Screenshot demonstrating user registration/login and calculation endpoints operational.
+
+- **Documentation:**
+  - Includes a reflection document addressing key experiences and challenges faced during the development and deployment process.
+  - README file contains instructions on how to run tests locally and links to the Docker Hub repository.
+
+### **2. Functionality of User & Calculation Routes and CI/CD Pipeline (50 Points)**
+
+- **User Routes:**
+  - **Register** and **Login** endpoints implemented correctly with Pydantic validation and secure password handling.
+  
+- **Calculation Routes (BREAD):**
+  - **Browse**, **Read**, **Edit**, **Add**, and **Delete** endpoints implemented correctly.
+  - Proper validation of requests and responses using Pydantic schemas.
+
+- **Testing and CI/CD:**
+  - Comprehensive integration tests for user and calculation routes are written and pass successfully in the GitHub Actions workflow.
+  - CI/CD pipeline is properly configured to build, test, and deploy the Docker image to Docker Hub without errors.
+  - Docker image is functional and can be pulled from Docker Hub, running the application as expected.
+
+---
+**Total: 100 Points**
 ---
 
 ## **Reflect**
